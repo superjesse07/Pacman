@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     Vector2 _dir = Vector2.zero;
     Vector2 _nextDir = Vector2.zero;
 
+    public bool Inverted = false;
+
     [Serializable]
     public class PointSprites
     {
@@ -107,10 +109,10 @@ public class PlayerController : MonoBehaviour
         GetComponent<Rigidbody2D>().MovePosition(p);
 
         // get the next direction from keyboard
-        if (Input.GetAxis("Horizontal") > 0) _nextDir = Vector2.right;
-        if (Input.GetAxis("Horizontal") < 0) _nextDir = -Vector2.right;
-        if (Input.GetAxis("Vertical") > 0) _nextDir = Vector2.up;
-        if (Input.GetAxis("Vertical") < 0) _nextDir = -Vector2.up;
+        if (Input.GetAxis("Horizontal") > 0) _nextDir = Inverted ? Vector2.left : Vector2.right;
+        if (Input.GetAxis("Horizontal") < 0) _nextDir = Inverted ? -Vector2.left : -Vector2.right;
+        if (Input.GetAxis("Vertical") > 0) _nextDir = Inverted ? Vector2.down : Vector2.up;
+        if (Input.GetAxis("Vertical") < 0) _nextDir = Inverted ? -Vector2.down : -Vector2.up;
 
         // if pacman is in the center of a tile
         if (Vector2.Distance(_dest, transform.position) < 0.00001f)
