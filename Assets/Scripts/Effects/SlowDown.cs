@@ -20,7 +20,6 @@ public class SlowDown : Effect
     {
 		player.speed *= 0.8f;
         isActive = true;
-		Invoke("DeActivate", 5.0f);
     }
 
     public override void DeActivate()

@@ -25,7 +25,7 @@ public class ScreenShake : Effect
 
     private void Update()
     {
-        if (shakeDuration > 0)
+        if (shakeDuration > 0 )
         {
             shakeDuration -= Time.deltaTime;
             Vector3 offset = Random.insideUnitCircle * (shakeStrength * (Math.Min(shakeDuration, screenShakeFalloff) / screenShakeFalloff));
@@ -43,7 +43,6 @@ public class ScreenShake : Effect
         if (isActive)
         {
             shakeDuration = 0.1f;
-            shakeStrength = 5;
         }
     }
 }

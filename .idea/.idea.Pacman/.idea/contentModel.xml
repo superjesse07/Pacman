@@ -9,7 +9,14 @@
         <e p="AI.cs" t="Include" />
         <e p="Effects" t="Include">
           <e p="Effect.cs" t="Include" />
+          <e p="EffectManager.cs" t="Include" />
+          <e p="InverseControls.cs" t="Include" />
+          <e p="Invisible.cs" t="Include" />
+          <e p="NeverGonna.cs" t="Include" />
+          <e p="OuchyMyEar.cs" t="Include" />
           <e p="ScreenShake.cs" t="Include" />
+          <e p="SlowDown.cs" t="Include" />
+          <e p="SpeedUp.cs" t="Include" />
           <e p="UpsideDown.cs" t="Include" />
         </e>
         <e p="Energizer.cs" t="Include" />

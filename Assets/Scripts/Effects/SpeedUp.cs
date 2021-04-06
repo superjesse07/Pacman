@@ -20,7 +20,6 @@ public class SpeedUp : Effect
     {
 		player.speed *= 15.0f;
         isActive = true;
-		Invoke("DeActivate", 3.0f);
     }
 
     public override void DeActivate()

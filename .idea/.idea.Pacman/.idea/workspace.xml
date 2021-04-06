@@ -21,12 +21,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c4b781e7-7b62-4e86-aa5b-1741e75540cf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/Effect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/Effect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/UpsideDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/UpsideDown.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pacdot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pacdot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/InverseControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/InverseControls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/Invisible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/Invisible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/ScreenShake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/ScreenShake.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/SlowDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/SlowDown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/SpeedUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/SpeedUp.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/UpsideDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/Effect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/EffectManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/NeverGonna.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Effects/OuchyMyEar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,7 +53,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Effects/UpsideDown.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pacdot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Pixelate.shader" />
+        <option value="$PROJECT_DIR$/Assets/Censor.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/EffectManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/NeverGonna.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/OuchyMyEar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Effects/ScreenShake.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/InverseControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/Invisible.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/SpeedUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/SlowDown.cs" />
       </list>
     </option>
   </component>
@@ -103,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617197293168</updated>
       <workItem from="1617197299247" duration="214000" />
-      <workItem from="1617709990574" duration="3658000" />
+      <workItem from="1617709990574" duration="7224000" />
     </task>
     <servers />
   </component>
@@ -127,9 +141,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="213" key="RiderGenerateDialog" timestamp="1617712587869">
+    <state x="794" y="213" key="RiderGenerateDialog" timestamp="1617716731197">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="794" y="213" key="RiderGenerateDialog/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1617712587869" />
+    <state x="794" y="213" key="RiderGenerateDialog/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1617716731197" />
   </component>
 </project>

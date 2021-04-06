@@ -21,7 +21,6 @@ public class Invisible : Effect
     {
 		player.enabled = false;
         isActive = true;
-		Invoke("DeActivate", 3.0f);
     }
 
     public override void DeActivate()
