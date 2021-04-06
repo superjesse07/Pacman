@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jesse\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\jesse\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Pacman.721271023.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\Unity\WIP\Pacman" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets\Scripts" t="Include">
+        <e p="AI.cs" t="Include" />
+        <e p="Effects" t="Include">
+          <e p="Effect.cs" t="Include" />
+          <e p="UpsideDown.cs" t="Include" />
+        </e>
+        <e p="Energizer.cs" t="Include" />
+        <e p="GhostMove.cs" t="Include" />
+        <e p="GUI Scripts" t="Include">
+          <e p="GameGUINavigation.cs" t="Include" />
+          <e p="MenuNavigation.cs" t="Include" />
+          <e p="Move.cs" t="Include" />
+          <e p="NameToTitle.cs" t="Include" />
+          <e p="PacdotSpawner.cs" t="Include" />
+          <e p="Scores.cs" t="Include" />
+        </e>
+        <e p="Managers" t="Include">
+          <e p="GameManager.cs" t="Include" />
+          <e p="MusicManager.cs" t="Include" />
+          <e p="ScoreManager.cs" t="Include" />
+          <e p="TileManager.cs" t="Include" />
+        </e>
+        <e p="Pacdot.cs" t="Include" />
+        <e p="PlayerController.cs" t="Include" />
+        <e p="Point.cs" t="Include" />
+        <e p="TargetGizmo.cs" t="Include" />
+        <e p="UIScript.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Pacman.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
