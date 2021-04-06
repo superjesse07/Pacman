@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4b781e7-7b62-4e86-aa5b-1741e75540cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pacman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/Effect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/Effect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Effects/UpsideDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Effects/UpsideDown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pacdot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pacdot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Effect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Effects/Effect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Effects/UpsideDown.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pacdot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Effects/ScreenShake.cs" />
       </list>
     </option>
   </component>
@@ -56,6 +65,12 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -88,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617197293168</updated>
       <workItem from="1617197299247" duration="214000" />
-      <workItem from="1617709990574" duration="531000" />
+      <workItem from="1617709990574" duration="3658000" />
     </task>
     <servers />
   </component>
@@ -112,9 +127,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="213" key="RiderGenerateDialog" timestamp="1617710114980">
+    <state x="794" y="213" key="RiderGenerateDialog" timestamp="1617712587869">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="794" y="213" key="RiderGenerateDialog/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1617710114980" />
+    <state x="794" y="213" key="RiderGenerateDialog/0.0.1920.1160/1920.0.1920.1160@0.0.1920.1160" timestamp="1617712587869" />
   </component>
 </project>

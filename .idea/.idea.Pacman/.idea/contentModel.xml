@@ -9,6 +9,7 @@
         <e p="AI.cs" t="Include" />
         <e p="Effects" t="Include">
           <e p="Effect.cs" t="Include" />
+          <e p="ScreenShake.cs" t="Include" />
           <e p="UpsideDown.cs" t="Include" />
         </e>
         <e p="Energizer.cs" t="Include" />

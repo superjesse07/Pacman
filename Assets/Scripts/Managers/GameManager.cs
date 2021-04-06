@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class GameManager : MonoBehaviour {
 
@@ -26,6 +27,7 @@ public class GameManager : MonoBehaviour {
 	private float _timeToCalm;
 
     public float SpeedPerLevel;
+    public UnityEvent onAddScore;
     
     //-------------------------------------------------------------------
     // singleton implementation
@@ -43,6 +45,12 @@ public class GameManager : MonoBehaviour {
 
             return _instance;
         }
+    }
+
+    public static void AddScore(int addScore)
+    {
+	    score += addScore;
+	    _instance.onAddScore.Invoke();
     }
 
     //-------------------------------------------------------------------

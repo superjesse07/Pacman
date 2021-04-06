@@ -7,8 +7,8 @@ public class Pacdot : MonoBehaviour {
 	{
 		if(other.name == "pacman")
 		{
-			GameManager.score += 10;
-		    GameObject[] pacdots = GameObject.FindGameObjectsWithTag("pacdot");
+			GameManager.AddScore(10);
+			GameObject[] pacdots = GameObject.FindGameObjectsWithTag("pacdot");
             Destroy(gameObject);
 
 		    if (pacdots.Length == 1)

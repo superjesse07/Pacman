@@ -8,6 +8,7 @@ public abstract class Effect : MonoBehaviour
     [NonSerialized]public string name;
     [NonSerialized]public string description;
     [NonSerialized]public float duration;
+    [NonSerialized] public float timer;
     
     public bool isActive;
     public abstract void Activate();
