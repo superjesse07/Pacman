@@ -5,12 +5,18 @@ using System.Collections;
 public class PlayerController : MonoBehaviour
 {
 
+    const int delayNumber = 30;
     public float speed = 0.4f;
     Vector2 _dest = Vector2.zero;
     Vector2 _dir = Vector2.zero;
     Vector2 _nextDir = Vector2.zero;
 
     public bool Inverted = false;
+
+    public bool Delayed = false;
+
+    Vector2[] lastInputs = new Vector2[delayNumber];
+    int lastInputIndex = 0;
 
     [Serializable]
     public class PointSprites
@@ -113,6 +119,13 @@ public class PlayerController : MonoBehaviour
         if (Input.GetAxis("Horizontal") < 0) _nextDir = Inverted ? -Vector2.left : -Vector2.right;
         if (Input.GetAxis("Vertical") > 0) _nextDir = Inverted ? Vector2.down : Vector2.up;
         if (Input.GetAxis("Vertical") < 0) _nextDir = Inverted ? -Vector2.down : -Vector2.up;
+
+        lastInputs[lastInputIndex] = _nextDir;
+
+        Vector2 TempNextDir = lastInputs[(lastInputIndex + delayNumber + 1) % delayNumber];
+        if (TempNextDir != Vector2.zero && Delayed) _nextDir = TempNextDir;
+
+        lastInputIndex = (lastInputIndex + 1) % delayNumber;
 
         // if pacman is in the center of a tile
         if (Vector2.Distance(_dest, transform.position) < 0.00001f)
