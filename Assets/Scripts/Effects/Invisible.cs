@@ -6,27 +6,16 @@ using UnityEngine;
 public class Invisible : Effect
 {
 
-	// test it
-	
-	/*
-	public void Start() {
+	public SpriteRenderer player;
 
-		Invoke("Activate", 2.0f);
-
-	}
-	*/
-
-    public SpriteRenderer player;
-    public override void Activate()
+    protected override void Activate()
     {
 		player.enabled = false;
-        isActive = true;
     }
 
-    public override void DeActivate()
+    protected override void DeActivate()
     {
 
 		player.enabled = true;
-        isActive = false;
     }
 }

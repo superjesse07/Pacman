@@ -10,9 +10,9 @@ public class UpsideDown : Effect
     public float rotation = 0;
     private float time;
 
-    public override void Activate()
+    protected override void Activate()
     {
-        isActive = true;
+        
     }
 
     private void Update()
@@ -24,8 +24,8 @@ public class UpsideDown : Effect
         camera.transform.rotation = Quaternion.Euler(0,0,rotation);
     }
 
-    public override void DeActivate()
+    protected override void DeActivate()
     {
-        isActive = false;
+        
     }
 }

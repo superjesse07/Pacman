@@ -6,26 +6,18 @@ using UnityEngine;
 public class InverseControls : Effect
 {
 
-	// test it
-	/*
-	public void Start() {
+	public PlayerController player;
 
-		Invoke("Activate", 2.0f);
-
-	}
-	*/
-
-    public PlayerController player;
-    public override void Activate()
+    protected override void Activate()
     {
 		player.Inverted = true;
-        isActive = true;
+		
     }
 
-    public override void DeActivate()
+    protected override void DeActivate()
     {
 
 		player.Inverted = false;
-        isActive = false;
+		
     }
 }

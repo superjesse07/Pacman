@@ -14,19 +14,19 @@ public class OuchyMyEar : Effect{
             var source = gameObject.AddComponent<AudioSource>();
             source.clip = clip;
             source.playOnAwake = false;
-            source.volume = 0.5f;
+            source.volume = 0.2f;
             sources.Add(source);
         }
     }
 
-    public override void Activate()
+    protected override void Activate()
     {
-        isActive = true;
+        
     }
 
-    public override void DeActivate()
+    protected override void DeActivate()
     {
-        isActive = false;
+        
     }
 
     public void Play()

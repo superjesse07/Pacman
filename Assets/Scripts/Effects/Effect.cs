@@ -5,12 +5,26 @@ using UnityEngine;
 
 public abstract class Effect : MonoBehaviour
 {
-    [NonSerialized]public string name;
-    [NonSerialized]public string description;
-    [NonSerialized]public float duration;
+    public string name;
+    public string description;
+    public float duration = 5;
     [NonSerialized] public float timer;
     
     public bool isActive;
-    public abstract void Activate();
-    public abstract void DeActivate();
+
+    public void ActivateEffect()
+    {
+        isActive = true;
+        timer = duration;
+        Activate();
+    }
+
+    public void DeActivateEffect()
+    {
+        isActive = false;
+        DeActivate();
+    }
+    
+    protected abstract void Activate();
+    protected abstract void DeActivate();
 }

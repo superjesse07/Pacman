@@ -6,8 +6,8 @@ using Random = UnityEngine.Random;
 
 public class ScreenShake : Effect
 {
-
-    public float shakeDuration,shakeStrength;
+    private float shakeDuration;
+    public float shakeStrength;
     private const float screenShakeFalloff = 0.4f;
     public Transform camera;
     private Vector3 cameraPos;
@@ -18,9 +18,8 @@ public class ScreenShake : Effect
     }
 
 
-    public override void Activate()
+    protected override void Activate()
     {
-        isActive = true;
     }
 
     private void Update()
@@ -33,9 +32,8 @@ public class ScreenShake : Effect
         }
     }
 
-    public override void DeActivate()
+    protected override void DeActivate()
     {
-        isActive = false;
     }
 
     public void Shake()

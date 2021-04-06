@@ -10,6 +10,7 @@
         <e p="Effects" t="Include">
           <e p="Effect.cs" t="Include" />
           <e p="EffectManager.cs" t="Include" />
+          <e p="InputDelay.cs" t="Include" />
           <e p="InverseControls.cs" t="Include" />
           <e p="Invisible.cs" t="Include" />
           <e p="NeverGonna.cs" t="Include" />
