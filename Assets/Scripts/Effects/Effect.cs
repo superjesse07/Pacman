@@ -6,7 +6,6 @@ using UnityEngine;
 public abstract class Effect : MonoBehaviour
 {
     public string name;
-    public string description;
     public float duration = 5;
     [NonSerialized] public float timer;
     

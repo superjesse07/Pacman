@@ -8,17 +8,18 @@ public class SpeedUp : Effect
 	
 
     public PlayerController player;
+    public float speed = 30;
 
     protected override void Activate()
     {
-		player.speed *= 15.0f;
+		player.speed *= speed;
 		
     }
 
     protected override void DeActivate()
     {
 
-		player.speed /= 15.0f;
+		player.speed /= speed;
 		
     }
 }

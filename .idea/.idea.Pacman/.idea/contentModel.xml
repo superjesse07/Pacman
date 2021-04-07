@@ -7,9 +7,12 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Scripts" t="Include">
         <e p="AI.cs" t="Include" />
+        <e p="EffectDisplay.cs" t="Include" />
         <e p="Effects" t="Include">
+          <e p="BigClyde.cs" t="Include" />
           <e p="Effect.cs" t="Include" />
           <e p="EffectManager.cs" t="Include" />
+          <e p="FlashBang.cs" t="Include" />
           <e p="InputDelay.cs" t="Include" />
           <e p="InverseControls.cs" t="Include" />
           <e p="Invisible.cs" t="Include" />

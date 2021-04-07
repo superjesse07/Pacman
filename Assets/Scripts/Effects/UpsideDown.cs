@@ -17,8 +17,8 @@ public class UpsideDown : Effect
 
     private void Update()
     {
-        if (isActive) time += Time.deltaTime * 2;
-        else time -= Time.deltaTime * 2;
+        if (isActive) time += Time.deltaTime * 4;
+        else time -= Time.deltaTime * 4;
         time = Mathf.Clamp(time, 0, 1);
         rotation = Mathf.Lerp(0, 180, time);
         camera.transform.rotation = Quaternion.Euler(0,0,rotation);
